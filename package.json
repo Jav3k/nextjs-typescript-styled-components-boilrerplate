@@ -1,7 +1,7 @@
 {
   "name": "nextjs-typescript-styled-components-boilrerplate",
   "version": "1.0.0",
-  "repository": "git@gitlab.frodex.ru:vulns.io/api-quality-external-comparing.git",
+  "repository": "git@github.com:Jav3k/nextjs-typescript-styled-components-boilrerplate.git",
   "author": "Jav3k <thejavek@gmail.com>",
   "private": true,
   "scripts": {
