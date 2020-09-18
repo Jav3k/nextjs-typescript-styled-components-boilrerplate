@@ -1,0 +1,27 @@
+{
+  "env": {
+    "production": {
+      "presets": ["next/babel"],
+      "plugins": [["styled-components", { "ssr": true }]]
+    },
+    "development": {
+      "presets": [
+        [
+          "next/babel",
+          {
+            "preset-env": {
+              "targets": {
+                "browsers": "last 1 Chrome version",
+                "node": true
+              }
+            },
+            "transform-runtime": {
+              "regenerator": false
+            }
+          }
+        ]
+      ],
+      "plugins": [["styled-components", { "ssr": true }]]
+    }
+  }
+}
